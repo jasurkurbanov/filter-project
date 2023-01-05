@@ -1,6 +1,6 @@
 # Footbal Points Project
 
-У вас есть данные
+У вас есть [данные внутри main/scripts/football-points.js ](https://github.com/jasurkurbanov/filter-project/blob/main/scripts/football-points.js)
 
 ```bash
 const FOOTBALL_POINTS = [  {
