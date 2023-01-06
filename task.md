@@ -2,48 +2,8 @@
 
 У вас есть [данные внутри main/scripts/football-points.js ](https://github.com/jasurkurbanov/filter-project/blob/main/scripts/football-points.js)
 
-```bash
-const FOOTBALL_POINTS = [  {
-    created_at: "2017-08-31T16:35:00.000Z",
-    title:
-      "ESPN Football Analyst Walks Away, Disturbed by Brain Trauma on Field",
-    url: "https://www.nytimes.com/2017/08/30/sports/espn-ed-cunningham-football-concussions.html",
-    author: "daegloe",
-    points: 436,
-    story_text: null,
-    comment_text: null,
-    num_comments: 383,
-    story_id: null,
-    story_title: null,
-    story_url: null,
-    parent_id: null,
-    created_at_i: 1504197300,
-    relevancy_score: 7635,
-    _tags: ["story", "author_daegloe", "story_15141495"],
-    objectID: "15141495",
-    _highlightResult: {
-      title: {
-        value:
-          "ESPN \u003cem\u003eFootball\u003c/em\u003e Analyst Walks Away, Disturbed by Brain Trauma on Field",
-        matchLevel: "full",
-        fullyHighlighted: false,
-        matchedWords: ["football"],
-      },
-      url: {
-        value:
-          "https://www.nytimes.com/2017/08/30/sports/espn-ed-cunningham-\u003cem\u003efootball\u003c/em\u003e-concussions.html",
-        matchLevel: "full",
-        fullyHighlighted: false,
-        matchedWords: ["football"],
-      },
-      author: { value: "daegloe", matchLevel: "none", matchedWords: [] },
-    },
-  }]
-```
+
 Нужно сделать такую карточку
-
-![image](https://user-images.githubusercontent.com/41279178/210742338-5bea4d61-d746-43af-9da5-682e8921d925.png)
-
 внутри карточкы должны быть эти данные
 ```bash
 title
@@ -91,3 +51,31 @@ _tags
 ![image](https://user-images.githubusercontent.com/41279178/210746702-0ca46fe7-3d50-40e8-adf7-648f20cc7aef.png)
 
 # Car Models Project
+У вас есть [данные внутри main/scripts/cars.js](https://github.com/jasurkurbanov/filter-project/blob/main/scripts/cars.js)
+
+Что нужно показать
+1) Показать все данные 
+2) Показать машин у кого id больше 9600
+3) Показать только машины под название GMC
+4) Показать машин до 2010 года
+5) Показать машины Sedan (это тип машины)
+
+Демо
+## Все машины
+![image](https://user-images.githubusercontent.com/41279178/211003568-9169b1d9-972a-44f8-a603-83380674d3bc.png)
+
+## Id > 9600
+![image](https://user-images.githubusercontent.com/41279178/211003707-ea608be3-21b2-4359-8c4c-af6028892305.png)
+
+## Только машины GMC
+![image](https://user-images.githubusercontent.com/41279178/211003782-63d0a72b-8d55-47b6-9080-93d2d065c7fe.png)
+
+## Машины до 2010
+![image](https://user-images.githubusercontent.com/41279178/211003982-0e353e3a-2ee8-4bdd-a793-c63acac50eaf.png)
+
+## Машины Sedan
+![image](https://user-images.githubusercontent.com/41279178/211004034-d43fa7c4-941b-40ae-84c7-afe99472199e.png)
+
+
+
+
