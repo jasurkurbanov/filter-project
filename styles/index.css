@@ -83,3 +83,46 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
 }
+
+/*footbal points styles*/
+.football-card {
+  width: 45%;
+  margin: 20px;
+  background-color: rgb(222, 255, 244);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.author {
+  color: rgb(19, 80, 211);
+  text-decoration: dotted;
+}
+
+.football-card-tags {
+  color: white;
+  padding: 4px;
+}
+.football-card-tags span:nth-child(1) {
+  padding: 4px;
+  background-color: blueviolet;
+}
+
+.football-card-tags span:nth-child(2) {
+  padding: 4px;
+  background-color: green;
+}
+
+.football-card-tags span:nth-child(3) {
+  padding: 4px;
+  background-color: rgb(228, 151, 8);
+}
+
+/*car project styles*/
+.car {
+  width: 20%;
+  background-color: rgb(231, 118, 212);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}

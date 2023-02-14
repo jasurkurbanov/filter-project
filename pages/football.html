@@ -12,9 +12,6 @@
     <link rel="stylesheet" href="./../styles/index.css" />
   </head>
   <body>
-    <h1>Football Points</h1>
-    https://hn.algolia.com/api/v1/search?query=
-
     <div class="wrapper">
       <nav class="menu">
         <a href="./../index.html">Github Users Project</a>
@@ -24,8 +21,17 @@
         <a href="./cars.html">Car Models Project</a>
       </nav>
       <main>
-        <h1>Hi text</h1>
+        <div class="controls">
+          <button id="allUsers">All Football News</button>
+          <button id="oneToFive">Data created before < 2016</button>
+          <button id="fiveToTen">Author starting with "d"</button>
+          <button id="tenToFifteen">Comment > 200</button>
+          <button id="fifteenToFifty">Url 'nytimes'</button>
+        </div>
+        <div id="content" class="content"></div>
       </main>
+
+      <script src="./../scripts/football-points.js"></script>
     </div>
   </body>
 </html>
