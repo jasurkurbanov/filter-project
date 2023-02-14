@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const FOOTBALL_POINTS = [
+=======
+  const FOOTBALL_POINTS = [
+>>>>>>> 58885c16bb56e4ab736a3661a73ec1afc764bf4e
   {
     created_at: "2017-08-31T16:35:00.000Z",
     title:
@@ -701,6 +705,7 @@ const FOOTBALL_POINTS = [
     },
   },
 ];
+<<<<<<< HEAD
 
 const mainContainer = document.getElementById("content");
 const allUsers = document.getElementById("allUsers");
@@ -777,3 +782,5 @@ fifteenToFifty.onclick = function () {
 
 // TODO:did i use it correct ?
 document.body.onload = renderUser(FOOTBALL_POINTS);
+=======
+>>>>>>> 58885c16bb56e4ab736a3661a73ec1afc764bf4e

@@ -350,6 +350,7 @@ const CARS_DATA = [
     type: "Coupe, Convertible",
   },
 ];
+<<<<<<< HEAD
 
 const mainContainer = document.getElementById("content");
 const allUsers = document.getElementById("allUsers");
@@ -404,3 +405,5 @@ fifteenToFifty.onclick = function () {
 
 // did i use it correct ?
 document.body.onload = renderUser(CARS_DATA);
+=======
+>>>>>>> 58885c16bb56e4ab736a3661a73ec1afc764bf4e
